@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
- <head>
-
-     
-        <meta charset="utf-8">
+ <head>  
+   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Container Form</title>
     <link rel="stylesheet" href="main.css">
@@ -12,17 +10,33 @@
     <header>
     </header>
     <section class="container">
-        <h2>This is my form</h2>
+        <h2>Please complete this section:</h2>
         
- <FORM action="http://somesite.com" method="post">
+ <FORM action="http://mySite.com" method="post">
     <P>
     Last name: <input type="text" name="lastname" pattern="[A-Z].*" required>
-    email: <INPUT type="text" name="email" required><BR>
-    Telephone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required> 
+    email: <INPUT type="email" name="myEmail" required><BR>
     Credit card number: <input type="tel" id="phone" name="phone" pattern="[0-9]{16}" required>       
-    Exp date: <input type="text" placeholder="Month" name="expMonth" />
+    Exp date: <input type="text" placeholder="Month" name="expMonth" /required> <br>
+    Telephone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
 
-    <INPUT type="submit" value="Send"> <INPUT type="reset">
+    <p>What is your age group?<p>
+<form method="get" action="mySite.com" >
+<input type="radio" name="age" value=1> Younger than 18 <p>
+<input type="radio" name="age" value=2> between 21 and 25 <p>
+<input type="radio" name="age" value=3> between 25 and 60 <p>
+<input type="radio" name="age" value=4> between 60 and 64 <p>
+<input type="radio" name="age" value=5> Older than 65 <p>
+    
+    Start date: <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2017-01-01" max="2018-12-30" required>
+    
+     Time: <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required><br>
+    Zip-code<input id="zip" name="zip" type="text" pattern="[0-9][0-9][0-9][0-9][0-9]"required>
+        <br>
+    <INPUT type="submit" value="Send"> 
     </p>
  </FORM>
 

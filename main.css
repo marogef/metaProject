@@ -17,12 +17,11 @@ body {
 /* content styles*/
 
 .container {
-    background: url(river.jpg) no-repeat 50%;
+    background: url(backgroundPaper.png) no-repeat 50%;
     background-size: cover;
     background-attachment: inherit;
     padding: 215px 0;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
     text-align: center;
 }
 
@@ -34,7 +33,7 @@ body {
 }
 
 .container h2 {
-    color: white;
+    color: black;
     font-size: 30px;
     text-shadow: 2px 2px gray;
     font-weight: bold
@@ -43,7 +42,7 @@ body {
 
 
 .footer {
-    padding: 25px 0;
+    padding: 5px 0;
     color: #bbc;
     font-size: 0.75em;
     margin-left: auto;
