@@ -13,12 +13,23 @@
     </header>
     <section class="container">
         <h2>This is my form</h2>
+        
+ <FORM action="http://somesite.com" method="post">
+    <P>
+    Last name: <input type="text" name="lastname" pattern="[A-Z].*" required>
+    email: <INPUT type="text" name="email" required><BR>
+    Telephone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required> 
+    Credit card number: <input type="tel" id="phone" name="phone" pattern="[0-9]{16}" required>       
+    Exp date: <input type="text" placeholder="Month" name="expMonth" />
+
+    <INPUT type="submit" value="Send"> <INPUT type="reset">
+    </p>
+ </FORM>
+
     </section>
 
     <footer class="footer ">
         <p>&copy; 2020 Faras Maroge</p>
     </footer>
 </body>
-
 </html>
-
